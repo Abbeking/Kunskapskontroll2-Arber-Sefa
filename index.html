@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Weather App</title>
+</head>
+<body>
+    <!-- Wrapper that holds everything, begins here -->
+    <div class="weather-wrapper">
+        <!-- Title -->
+        <h2>Todays weather</h2>
+        <!-- The first input is where you search, second is the button next to. -->
+        <form id="textbtnwrap">
+            <input type="text" id="textfield" placeholder="💬...">
+            <input type="submit" id="submitcity" value="✔️">
+        </form>
+        <!-- The icon image which will trigger by javascript itself, depends on the weather in the city -->
+        <img src="" alt="">
+        <!-- Each item will be visible once you search on a city/country. -->
+        <div class="weatherinfo">
+            <h3 class="desc"></h3>
+            <h3 class="city"></h3>
+            <h3 class="temp"></h3>
+            <h3 class="wind"></h3>
+            <h3 class="humidity"></h3>
+            <h3 class="error"></h3>
+        </div>
+    </div>
+    <!-- Wrapper ends -->
+
+    <script src="app.js"></script>
+</body>
+</html>

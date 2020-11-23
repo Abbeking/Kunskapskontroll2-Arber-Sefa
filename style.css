@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(48, 47, 47);
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: crosshair;
+}
+
+.weather-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+
+.weather-wrapper h2 {
+    margin-bottom: 1rem;
+    font-size: 6rem;
+    color: rgb(54, 52, 52);
+    text-shadow: 3px 3px #000000;
+}
+
+h2:hover {
+    color: black;
+    text-shadow: 3px 3px #ff0000;
+    transition: 0.5s;
+}
+
+#textfield {
+    padding: 1rem 2rem;
+    border: 5px solid rgb(212, 203, 203);
+    border-radius: 1.5rem 0 3rem 0;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    background-color: rgb(243, 233, 233);
+
+}
+
+#submitcity {
+    padding: 1rem 2rem;
+    border: 5px solid rgb(212, 203, 203);
+    border-radius: 1.5rem 0 3rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: rgb(243, 233, 233);;
+}
+
+#submitcity:hover {
+    background-color: rgb(32, 184, 12);
+    transition: 0.5s;
+}
+
+.error {
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    color: rgb(223, 28, 119);
+}
+
+
+.weatherinfo span {
+    margin: 0.5rem;
+}
+
+h3 {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    color: rgb(83, 78, 78);
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 1px 1px #ff0000;
+}
+
+.weather-items {
+    color: rgb(223, 28, 119);
+    text-align: center;
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
